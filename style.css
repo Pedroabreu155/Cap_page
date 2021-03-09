@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -159,3 +160,164 @@ background-color: rgb(73, 73, 73);
 
 
 
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(163, 71, 71);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header{
+    background-color: rgb(163, 71, 71);
+    text-align: center;
+    color: black;
+    padding: 10px;
+    
+}
+
+.title{
+    font-size: 26px;
+}
+
+main{
+    color: black;
+    padding: 20px;
+    background-image: url(./assets/design_image.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.form_container{
+    background-color: #fff;
+    max-width: 300px;
+    padding: 25px;
+    border: solid 3px black;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: solid 2px rgb(163, 71, 71);
+    margin-bottom: 10px;
+}
+
+.submit_button{
+    color: black;
+    background-color: rgb(163, 71, 71);
+    font-weight: bold;
+}
+
+.submit_button:hover{
+    background-color: rgb(73, 73, 73);
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+footer{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.photo{
+    width: 180px;
+    border: solid 3px black;
+    margin-top: 10px;
+}
+
+.description{
+    display: inline-block;
+    color: black;
+    max-width: 50%;
+    margin-left: 2.2rem;
+    text-align: left;
+}
+
+.description p, .description h3{
+    margin-bottom: 1.25rem;
+}
+
+.social_media{
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 45px;
+}
+
+#profiles{
+    margin: auto;
+}
+
+button{
+    width: 8rem;
+    display: block;
+    padding: 0.75rem 1.5rem;
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 1rem;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+background-color: rgb(73, 73, 73);
+
+}
+
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 920px) {
+    .description{
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .description{
+        max-width: 80%;
+    }
+
+    .description p, .description h3{
+        margin-top: 1.25rem;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .form_container{
+        margin: auto;
+    }
+
+    .photo{
+        margin: auto;
+    }
+
+    .description{
+        margin: auto;
+    }
+
+    main{
+        background-image: none;
+    }
+}
+
+
+
+>>>>>>> 05d5d544f79a68e27dbcef03260d4ba31c2aea75
