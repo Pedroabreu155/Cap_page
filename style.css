@@ -100,7 +100,9 @@ footer{
     margin: auto;
 }
 
-button{
+a{
+    color: black;
+    text-decoration: none;
     width: 8rem;
     display: block;
     padding: 0.75rem 1.5rem;
@@ -113,7 +115,7 @@ button{
     font-weight: bold;
 }
 
-button:hover{
+a:hover{
 background-color: rgb(73, 73, 73);
 
 }
